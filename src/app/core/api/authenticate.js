@@ -15,7 +15,7 @@ export const authenticate = (email, password) => {
   return axios.post(`${endpoint}/api/login`, {email, password}, config)
     .then( (response) => {
       
-      window.localStorage.setItem('authToken', console.log(response.data.token));
+      window.localStorage.setItem('authToken', response.data.token);
 
       return response.data.token;
     });

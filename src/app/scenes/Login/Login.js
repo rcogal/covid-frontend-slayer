@@ -54,7 +54,7 @@ const Login = () => {
 
     authenticate(email, password)
       .then( res => {
-        history.push("/dashboard");
+        history.push("dashboard");
       })
       .catch( () => {
         window.alert('Invalid Credentials');
