@@ -1,0 +1,24 @@
+.Dashboard {
+  .header {
+    border-bottom: 1px solid #535353;
+    margin-bottom: 20px;
+    
+    .title {
+      font-size: 25px;
+    }
+
+    .hero {
+      float: right;
+    }
+  }
+
+  .btn-game-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    .btn-game {
+      width: 200px;
+    }
+  }
+}
